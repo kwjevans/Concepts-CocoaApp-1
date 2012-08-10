@@ -9,10 +9,26 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize firstNumTextField;
+@synthesize secondNumTextField;
+@synthesize btnSqrRoot;
+@synthesize btnProduct;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
 }
 
+- (IBAction)calculateResult:(id)sender {
+
+    NSString *senderName = nil;
+    if (sender == self.btnSqrRoot){
+        senderName = @"btnSqrRoot";
+
+    }
+    if (sender == self.btnProduct){
+        senderName = @"btnProduct";
+    }
+    NSLog(@"received a result message of %@",senderName);
+}
 @end
