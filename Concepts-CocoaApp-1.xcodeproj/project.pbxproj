@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E59DE515D570EF00A9737D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E59DE415D570EF00A9737D /* Cocoa.framework */; };
+		01E59DEF15D570F000A9737D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E59DED15D570F000A9737D /* InfoPlist.strings */; };
+		01E59DF115D570F000A9737D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E59DF015D570F000A9737D /* main.m */; };
+		01E59DF515D570F000A9737D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01E59DF315D570F000A9737D /* Credits.rtf */; };
+		01E59DF815D570F000A9737D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E59DF715D570F000A9737D /* AppDelegate.m */; };
+		01E59DFB15D570F000A9737D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E59DF915D570F000A9737D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E59DE015D570EF00A9737D /* Concepts-CocoaApp-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concepts-CocoaApp-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E59DE415D570EF00A9737D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		01E59DE715D570EF00A9737D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		01E59DE815D570EF00A9737D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		01E59DE915D570EF00A9737D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01E59DEC15D570F000A9737D /* Concepts-CocoaApp-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Concepts-CocoaApp-1-Info.plist"; sourceTree = "<group>"; };
+		01E59DEE15D570F000A9737D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01E59DF015D570F000A9737D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01E59DF215D570F000A9737D /* Concepts-CocoaApp-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Concepts-CocoaApp-1-Prefix.pch"; sourceTree = "<group>"; };
+		01E59DF415D570F000A9737D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		01E59DF615D570F000A9737D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01E59DF715D570F000A9737D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01E59DFA15D570F000A9737D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E59DDD15D570EF00A9737D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E59DE515D570EF00A9737D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E59DD515D570EF00A9737D = {
+			isa = PBXGroup;
+			children = (
+				01E59DEA15D570F000A9737D /* Concepts-CocoaApp-1 */,
+				01E59DE315D570EF00A9737D /* Frameworks */,
+				01E59DE115D570EF00A9737D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E59DE115D570EF00A9737D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E59DE015D570EF00A9737D /* Concepts-CocoaApp-1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E59DE315D570EF00A9737D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E59DE415D570EF00A9737D /* Cocoa.framework */,
+				01E59DE615D570EF00A9737D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01E59DE615D570EF00A9737D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E59DE715D570EF00A9737D /* AppKit.framework */,
+				01E59DE815D570EF00A9737D /* CoreData.framework */,
+				01E59DE915D570EF00A9737D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		01E59DEA15D570F000A9737D /* Concepts-CocoaApp-1 */ = {
+			isa = PBXGroup;
+			children = (
+				01E59DF615D570F000A9737D /* AppDelegate.h */,
+				01E59DF715D570F000A9737D /* AppDelegate.m */,
+				01E59DF915D570F000A9737D /* MainMenu.xib */,
+				01E59DEB15D570F000A9737D /* Supporting Files */,
+			);
+			path = "Concepts-CocoaApp-1";
+			sourceTree = "<group>";
+		};
+		01E59DEB15D570F000A9737D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E59DEC15D570F000A9737D /* Concepts-CocoaApp-1-Info.plist */,
+				01E59DED15D570F000A9737D /* InfoPlist.strings */,
+				01E59DF015D570F000A9737D /* main.m */,
+				01E59DF215D570F000A9737D /* Concepts-CocoaApp-1-Prefix.pch */,
+				01E59DF315D570F000A9737D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E59DDF15D570EF00A9737D /* Concepts-CocoaApp-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E59DFE15D570F000A9737D /* Build configuration list for PBXNativeTarget "Concepts-CocoaApp-1" */;
+			buildPhases = (
+				01E59DDC15D570EF00A9737D /* Sources */,
+				01E59DDD15D570EF00A9737D /* Frameworks */,
+				01E59DDE15D570EF00A9737D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Concepts-CocoaApp-1";
+			productName = "Concepts-CocoaApp-1";
+			productReference = 01E59DE015D570EF00A9737D /* Concepts-CocoaApp-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E59DD715D570EF00A9737D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kris Evans";
+			};
+			buildConfigurationList = 01E59DDA15D570EF00A9737D /* Build configuration list for PBXProject "Concepts-CocoaApp-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01E59DD515D570EF00A9737D;
+			productRefGroup = 01E59DE115D570EF00A9737D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E59DDF15D570EF00A9737D /* Concepts-CocoaApp-1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E59DDE15D570EF00A9737D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E59DEF15D570F000A9737D /* InfoPlist.strings in Resources */,
+				01E59DF515D570F000A9737D /* Credits.rtf in Resources */,
+				01E59DFB15D570F000A9737D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E59DDC15D570EF00A9737D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E59DF115D570F000A9737D /* main.m in Sources */,
+				01E59DF815D570F000A9737D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01E59DED15D570F000A9737D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E59DEE15D570F000A9737D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01E59DF315D570F000A9737D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E59DF415D570F000A9737D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		01E59DF915D570F000A9737D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E59DFA15D570F000A9737D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E59DFC15D570F000A9737D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		01E59DFD15D570F000A9737D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		01E59DFF15D570F000A9737D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concepts-CocoaApp-1/Concepts-CocoaApp-1-Prefix.pch";
+				INFOPLIST_FILE = "Concepts-CocoaApp-1/Concepts-CocoaApp-1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01E59E0015D570F000A9737D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Concepts-CocoaApp-1/Concepts-CocoaApp-1-Prefix.pch";
+				INFOPLIST_FILE = "Concepts-CocoaApp-1/Concepts-CocoaApp-1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E59DDA15D570EF00A9737D /* Build configuration list for PBXProject "Concepts-CocoaApp-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E59DFC15D570F000A9737D /* Debug */,
+				01E59DFD15D570F000A9737D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E59DFE15D570F000A9737D /* Build configuration list for PBXNativeTarget "Concepts-CocoaApp-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E59DFF15D570F000A9737D /* Debug */,
+				01E59E0015D570F000A9737D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E59DD715D570EF00A9737D /* Project object */;
+}
