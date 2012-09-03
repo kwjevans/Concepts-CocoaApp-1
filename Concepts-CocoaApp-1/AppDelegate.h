@@ -10,21 +10,24 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-// Outlets
-@property (assign) IBOutlet NSWindow *window;
+    // Outlets
+    @property (assign) IBOutlet NSWindow *window;
 
 
-// Outlet connection for the first text field
-@property (weak) IBOutlet NSTextField *firstNumTextField;
+    // Outlet connection for the first text field
+    @property (weak) IBOutlet NSTextField *firstNumTextField;
 
-// Outlet connection for the second text field
-@property (weak) IBOutlet NSTextField *secondNumTextField;
-@property (weak) IBOutlet NSButton *btnSqrRoot;
-@property (weak) IBOutlet NSButton *btnProduct;
+    // Outlet connection for the second text field
+    @property (weak) IBOutlet NSTextField *secondNumTextField;
+    @property (weak) IBOutlet NSButton *btnSqrRoot;
+    @property (weak) IBOutlet NSButton *btnProduct;
+    @property (weak) IBOutlet NSButton *btnDivide;
+    
+    @property (weak) IBOutlet NSButton *btnModulus;
 
-// Actions
+    // Actions
 
-- (IBAction)calculateResult:(id)sender;
+    - (IBAction)calculateResult:(id)sender;
 
 
 @end
