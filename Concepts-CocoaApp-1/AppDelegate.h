@@ -22,8 +22,8 @@
     @property (weak) IBOutlet NSButton *btnSqrRoot;
     @property (weak) IBOutlet NSButton *btnProduct;
     @property (weak) IBOutlet NSButton *btnDivide;
-    
     @property (weak) IBOutlet NSButton *btnModulus;
+    @property (weak) IBOutlet NSButton *btnAddition;
 
     // Actions
 
